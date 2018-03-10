@@ -10,3 +10,6 @@ http://iomega.nas-central.org/wiki/Category:Ix2-200-usb-init
 Ref #2
 https://www.technopat.net/sosyal/konu/upgrading-iomega-ix2-200-to-cloud-edition.2651/
 
+Ref #3
+http://download.lenovo.com/lenovoemc/na/en/app/answers/detail/a_id/26789.html
+
