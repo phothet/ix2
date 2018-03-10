@@ -1,7 +1,37 @@
 1. usb needs to be formatted as fat32 type c
+
+# usb stick (1GB) needs to be formatted as fat32 type c
+
+```
+fdisk /dev/sdb
+```
+- press `p` to print and check if there's any existing partition
+- press `d` to remove any existing partitions
+- otherwise just hit `c` to create new parition
+- select `p` to set new partition as primary
+- `enter` to accept default
+- another `enter` to accept default
+- `t` to set the type 
+- `c` to set fat32
+- `w` to write and save the config
+
 2. after formatting the stick, don't forget to run mkfs.vfat
-3. all the folders and the files need to be owned by root user and group
-4. just run the script as root user
+
+```
+mkfs.vfat /dev/sdb1/
+```
+3. just run the script as root user
+
+```
+chmod 755 mkix2fw2usb.sh
+```
+
+4. make sure all the folders and the files need to be owned by root user and group
+
+```
+ls -l /usb_moutned_path/emctools/
+ls -l /usb_mounted_path/emctools/ix2-200_images/
+```
 5. using ix2-200d_images directory doesn't work and had to change the path to ix2-200_images
 
 Ref #1
