@@ -1,6 +1,4 @@
-1. usb needs to be formatted as fat32 type c
-
-# usb stick (1GB) needs to be formatted as fat32 type c
+1. usb stick (1GB - /dev/sdb) needs to be formatted as fat32 type c
 
 ```
 fdisk /dev/sdb
