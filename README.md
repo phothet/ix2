@@ -37,7 +37,8 @@ ls -l /usb_mounted_path/emctools/ix2-200_images/
 Ref #1
 http://iomega.nas-central.org/wiki/Category:Ix2-200-usb-init
 
-https://web.archive.org/web/20190401094139/iomega.nas-central.org/wiki/Category:Ix2-200-usb-init <Archive.org>
+Ref #1.1
+https://web.archive.org/web/20190401094139/iomega.nas-central.org/wiki/Category:Ix2-200-usb-init
 
 Ref #2
 https://www.technopat.net/sosyal/konu/upgrading-iomega-ix2-200-to-cloud-edition.2651/
